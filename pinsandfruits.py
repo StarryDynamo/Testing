@@ -12,7 +12,7 @@ def find_in_file(f):
     if f in fruits:
         return "That fruit is in the list."
     else:
-        return "No such fruit found!"
+        return "Fruit not found!"
 
 if pin in pins.values():
     fruit = input("Enter fruit: ")
